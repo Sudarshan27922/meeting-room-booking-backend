@@ -1,11 +1,9 @@
 logs
-.env
 /src/generated/prisma
 
 # Node.js
 node_modules/
 dist/
-.env
 *.log
 npm-debug.log*
 
