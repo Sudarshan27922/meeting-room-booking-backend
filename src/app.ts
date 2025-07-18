@@ -3,7 +3,7 @@ import roomRoutes from './routes/room.routes';
 import authRoutes from './routes/auth.routes'
 import cookieParser from 'cookie-parser';
 import bookingRoutes from './routes/booking.routes'
-import neonRoomRoutes from './routes/neonRoom.routes';
+// import neonRoomRoutes from './routes/neonRoom.routes';
 
 const app: Application = express();
 
@@ -17,7 +17,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/bookings', bookingRoutes);
 
 //for neon db
-app.use('/api/neon-rooms', neonRoomRoutes);
+// app.use('/api/neon-rooms', neonRoomRoutes);
 
 app.get('/', (req, res) => {
   console.log("GET / route hit");
